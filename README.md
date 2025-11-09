@@ -4,7 +4,7 @@
 
 This repository contains the source code and data for the following paper:
 
-**Zhou, H., Zhang, P., Liang, Z., Li, H., \& Li, X.** (2025). *Coverage trajectory planning problem on 3D terrains with safety constraint for automated lawn mower: Exact and heuristic approaches.*  Robotics and Autonomous Systems..
+**Zhou, H., Zhang, P., Liang, Z., Li, H., \& Li, X.** (2025). *Coverage trajectory planning problem on 3D terrains with safety constraint for automated lawn mower: Exact and heuristic approaches.*  Robotics and Autonomous Systems.
 
 Autonomous mowing systems offer the potential to enhance efficiency and reduce labor in lawn maintenance. However, the irregularities of real-world terrains such as slopes and obstacles introduce significant safety challenges that must be addressed in trajectory planning. This repository provides the implementation of a trajectory planning framework for automated lawn mowers operating on 3D terrains. It introduces the Coverage Trajectory Planning Problem on 3D Terrains (CTPP-3DT), which jointly optimizes the mower's path and speed profile to minimize completion time while satisfying safety constraints on sloped surfaces. The framework includes a Mixed-Integer Linear Programming model for small-scale instances and a decomposition-based heuristic algorithm using Simulated Annealing for large-scale problems. Benchmark experiments and sensitivity analyses are provided to evaluate the effectiveness and generalizability of the proposed approach.
 
